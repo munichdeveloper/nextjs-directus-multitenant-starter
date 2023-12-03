@@ -21,6 +21,13 @@ I will only describe the multi tenancy functionality here, as this is what i hav
 For documentation on the basic functionality of the starter, please refer to the repo of fredygerman.
 For documentation on directus, head over to [directus.io](https://directus.io/)
 
+## Get started
+Create a .env file in the root of the project with the following entries:
+- DIRECTUS_URL -> The url of your self hosted directus instance, e.g. https://directus.your-domain.com
+- DIRECTUS_TOKEN_EXPIRATION_ADJUSTMENT -> The session lifetime in seconds, needs to be appropriate to your directus setting, e.g. 86400 for a sessions lifetime of a day
+- DIRECTUS_USER_CREATOR_TOKEN
+- DIRECTUS_DEFAULT_ROLE_ID
+
 ## Multi tenancy
 
 
